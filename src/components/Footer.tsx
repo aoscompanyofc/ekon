@@ -1,6 +1,6 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
-import logoWhite from '../assets/logo-white.png';
+import logoTransparent from '../assets/logo.png';
 
 export const Footer: React.FC = () => {
   const navLinks = [
@@ -29,9 +29,9 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-4 flex justify-center md:justify-start">
             <a href="#" className="select-none">
               <img
-                src={logoWhite}
+                src={logoTransparent}
                 alt="Ekon Energia"
-                className="h-12 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
+                className="h-14 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
             </a>
           </div>

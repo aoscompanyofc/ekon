@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoWhite from '../assets/logo-white.png';
+import logoTransparent from '../assets/logo.png';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,9 +46,9 @@ export const Header: React.FC = () => {
         {/* Logo */}
         <a href="#" className="select-none flex-shrink-0">
           <img
-            src={logoWhite}
+            src={logoTransparent}
             alt="Ekon Energia"
-            className="h-12 md:h-14 w-auto object-contain drop-shadow-[0_0_12px_rgba(0,230,118,0.25)] transition-transform duration-300 hover:scale-105"
+            className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 hover:scale-105"
           />
         </a>
 
