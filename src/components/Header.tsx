@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logoWhite from '../assets/logo-white.png';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,18 +44,8 @@ export const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 select-none group">
-          <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-ekon-green/10 border border-ekon-green/20 group-hover:bg-ekon-green/20 transition-all duration-300">
-            <Zap className="w-5 h-5 text-ekon-green fill-ekon-green" />
-          </div>
-          <div className="flex flex-col leading-none">
-            <span className="font-extrabold text-2xl tracking-tight text-white lowercase">
-              ekon
-            </span>
-            <span className="font-bold text-[9px] tracking-[0.25em] text-ekon-green uppercase">
-              energia
-            </span>
-          </div>
+        <a href="#" className="select-none">
+          <img src={logoWhite} alt="Ekon Energia" className="h-10 w-auto object-contain" />
         </a>
 
         {/* Desktop Menu */}
