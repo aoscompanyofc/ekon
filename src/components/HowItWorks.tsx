@@ -69,7 +69,7 @@ export const HowItWorks: React.FC = () => {
           <span className="text-xs font-extrabold tracking-widest text-ekon-green uppercase block mb-3">
             COMO FUNCIONA
           </span>
-          <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight mb-4">
+          <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight mb-4 text-balance">
             Simples, rápido e sem complicação.
           </h2>
           <p className="text-base md:text-lg text-ekon-text-gray font-normal">

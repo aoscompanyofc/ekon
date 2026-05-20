@@ -107,7 +107,7 @@ export const Header: React.FC = () => {
           <a
             href="#simular"
             onClick={(e) => handleScrollTo(e, '#simular')}
-            className="w-full max-w-[280px] text-center px-6 py-3 rounded-full bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-bold text-base tracking-wide shadow-[0_4px_20px_rgba(0,230,118,0.3)] transition-all duration-300"
+            className="w-full max-w-[280px] text-center whitespace-nowrap px-6 py-3 rounded-full bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-bold text-base tracking-wide shadow-[0_4px_20px_rgba(0,230,118,0.3)] transition-all duration-300"
           >
             Simule agora
           </a>

@@ -111,7 +111,7 @@ export const Hero: React.FC = () => {
             <a
               href="#simular"
               onClick={(e) => handleScrollTo(e, '#simular')}
-              className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-4 rounded-full bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-extrabold text-base tracking-wider shadow-[0_6px_24px_rgba(0,230,118,0.4)] hover:shadow-[0_8px_30px_rgba(0,230,118,0.6)] transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap w-full sm:w-auto px-8 py-4 rounded-full bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-extrabold text-base tracking-wider shadow-[0_6px_24px_rgba(0,230,118,0.4)] hover:shadow-[0_8px_30px_rgba(0,230,118,0.6)] transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
             >
               <Zap className="w-5 h-5 fill-current" />
               QUERO ECONOMIZAR AGORA

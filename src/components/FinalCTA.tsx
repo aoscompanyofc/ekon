@@ -57,7 +57,7 @@ export const FinalCTA: React.FC = () => {
           </div>
 
           {/* Right Side (CTA Button) */}
-          <div className="w-full md:w-auto relative z-10 flex flex-col items-center gap-3">
+          <div className="w-full md:w-auto relative z-10 flex flex-col items-center gap-3 flex-shrink-0">
             <a
               ref={btnRef}
               href="#simular"

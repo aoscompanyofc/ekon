@@ -140,7 +140,7 @@ export const Economy: React.FC = () => {
               </div>
 
               {/* Overlapping neon green saving card */}
-              <div className="absolute -right-6 top-1/3 p-4 md:p-5 rounded-2xl bg-ekon-green text-ekon-purple shadow-xl border border-ekon-green-light max-w-[210px] transform hover:scale-105 transition-all duration-300">
+              <div className="absolute right-0 md:-right-6 top-1/3 p-3 md:p-5 rounded-2xl bg-ekon-green text-ekon-purple shadow-xl border border-ekon-green-light max-w-[160px] md:max-w-[210px] transform hover:scale-105 transition-all duration-300">
                 <span className="text-[9px] font-extrabold tracking-widest text-ekon-purple-dark/60 block uppercase mb-1">
                   Com Ekon você paga:
                 </span>
@@ -159,7 +159,7 @@ export const Economy: React.FC = () => {
             <span className="text-xs font-extrabold tracking-widest text-ekon-green uppercase block mb-3">
               ECONOMIA REAL
             </span>
-            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-white leading-tight mb-5">
+            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-white leading-tight mb-5 text-balance">
               Mais economia para você viver melhor.
             </h2>
             <p className="text-base md:text-lg text-white/80 font-normal leading-relaxed mb-10 max-w-xl">

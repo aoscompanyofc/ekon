@@ -80,7 +80,7 @@ export const FAQ: React.FC = () => {
             <span className="text-xs font-extrabold tracking-widest text-ekon-green uppercase block mb-3">
               DÚVIDAS FREQUENTES
             </span>
-            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight">
+            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight text-balance">
               Perguntas que sempre recebemos
             </h2>
           </div>

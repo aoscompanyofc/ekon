@@ -104,7 +104,7 @@ export const Benefits: React.FC = () => {
             <span className="text-xs font-extrabold tracking-widest text-ekon-green uppercase block mb-3">
               VANTAGENS EKON
             </span>
-            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight mb-8">
+            <h2 className="text-3xl md:text-[40px] font-extrabold tracking-tight text-ekon-text-dark leading-tight mb-8 text-balance">
               Por que escolher a Ekon Energia?
             </h2>
 
@@ -177,7 +177,7 @@ export const Benefits: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-extrabold text-sm tracking-widest shadow-[0_4px_16px_rgba(0,230,118,0.3)] transition-all duration-300 active:scale-[0.98] cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2 whitespace-nowrap px-6 py-4 rounded-xl bg-ekon-green hover:bg-ekon-green-light text-ekon-purple-dark font-extrabold text-sm tracking-widest shadow-[0_4px_16px_rgba(0,230,118,0.3)] transition-all duration-300 active:scale-[0.98] cursor-pointer"
                 >
                   <Zap className="w-4 h-4 fill-current" />
                   FAZER SIMULAÇÃO GRATUITA
