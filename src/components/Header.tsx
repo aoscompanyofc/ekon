@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
           <img
             src={logoTransparent}
             alt="Ekon Energia"
-            className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 hover:scale-105"
+            className="h-20 md:h-24 w-auto object-contain transition-transform duration-300 hover:scale-105"
           />
         </a>
 
