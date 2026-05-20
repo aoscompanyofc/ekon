@@ -48,16 +48,16 @@ export const Hero: React.FC = () => {
       {/* Background visual details */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(0,230,118,0.12),transparent_45%)]" />
       
-      <div className="container mx-auto px-4 md:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div className="container mx-auto px-4 md:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
         {/* Left Column (Content) */}
-        <div className="lg:col-span-7 flex flex-col items-start text-left">
+        <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left">
           {/* Tag superior */}
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold tracking-widest text-ekon-green bg-ekon-green/10 border border-ekon-green/20 mb-6 uppercase">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold tracking-widest text-ekon-green bg-ekon-green/10 border border-ekon-green/20 mb-5 uppercase">
             energia por assinatura
           </span>
 
           {/* Headline H1 */}
-          <h1 className="text-4xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.1] mb-6">
+          <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.1] mb-5">
             Reduza até <span className="text-ekon-green relative inline-block">
               20%
               <span className="absolute bottom-1 left-0 w-full h-[3px] bg-ekon-green/30 rounded" />
@@ -66,51 +66,48 @@ export const Hero: React.FC = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-white/80 max-w-xl font-normal leading-relaxed mb-8">
+          <p className="text-base md:text-xl text-white/80 max-w-xl font-normal leading-relaxed mb-7">
             A Ekon Energia torna a energia mais acessível para sua casa ou empresa, com desconto garantido.
           </p>
 
           {/* Badges Container */}
           <div
             ref={badgesRef}
-            className="flex flex-col sm:flex-row flex-wrap gap-4 items-stretch mb-10 w-full"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8 w-full max-w-xl lg:max-w-none"
           >
-            {/* Badge 1 */}
-            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 flex-1 min-w-[200px]">
-              <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-lg bg-red-500/10 text-red-400">
-                <XOctagon className="w-5 h-5" />
+            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <div className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-lg bg-red-500/10 text-red-400">
+                <XOctagon className="w-4 h-4" />
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-[10px] font-bold tracking-wider text-white/40 uppercase">Sem cobranças</span>
-                <span className="text-xs font-bold text-white uppercase">NÃO PAGA MENSALIDADE</span>
+                <span className="text-[9px] font-bold tracking-wider text-white/40 uppercase">Sem cobranças</span>
+                <span className="text-[11px] font-bold text-white uppercase leading-tight">Sem mensalidade</span>
               </div>
             </div>
 
-            {/* Badge 2 */}
-            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 flex-1 min-w-[200px]">
-              <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-lg bg-ekon-green/10 text-ekon-green">
-                <Wrench className="w-5 h-5" />
+            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <div className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-lg bg-ekon-green/10 text-ekon-green">
+                <Wrench className="w-4 h-4" />
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-[10px] font-bold tracking-wider text-white/40 uppercase">Zero complicações</span>
-                <span className="text-xs font-bold text-white uppercase">NENHUMA INSTALAÇÃO</span>
+                <span className="text-[9px] font-bold tracking-wider text-white/40 uppercase">Zero complicações</span>
+                <span className="text-[11px] font-bold text-white uppercase leading-tight">Sem instalação</span>
               </div>
             </div>
 
-            {/* Badge 3 */}
-            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 flex-1 min-w-[200px]">
-              <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400">
-                <Home className="w-5 h-5" />
+            <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <div className="flex-shrink-0 flex items-center justify-center w-9 h-9 rounded-lg bg-blue-500/10 text-blue-400">
+                <Home className="w-4 h-4" />
               </div>
               <div className="flex flex-col text-left">
-                <span className="text-[10px] font-bold tracking-wider text-white/40 uppercase">100% digital</span>
-                <span className="text-xs font-bold text-white uppercase">NEM NECESSITA DE OBRAS</span>
+                <span className="text-[9px] font-bold tracking-wider text-white/40 uppercase">100% digital</span>
+                <span className="text-[11px] font-bold text-white uppercase leading-tight">Sem obras</span>
               </div>
             </div>
           </div>
 
-          {/* CTA & Microcopy */}
-          <div className="flex flex-col items-start gap-3 w-full sm:w-auto">
+          {/* CTA */}
+          <div className="flex flex-col items-center lg:items-start gap-3 w-full sm:w-auto">
             <a
               href="#simular"
               onClick={(e) => handleScrollTo(e, '#simular')}
@@ -119,14 +116,14 @@ export const Hero: React.FC = () => {
               <Zap className="w-5 h-5 fill-current" />
               QUERO ECONOMIZAR AGORA
             </a>
-            <span className="text-xs text-white/60 font-medium pl-4">
+            <span className="text-xs text-white/60 font-medium">
               Simule gratuitamente em 1 minuto
             </span>
           </div>
         </div>
 
-        {/* Right Column (Visual) */}
-        <div className="lg:col-span-5 relative flex items-center justify-center">
+        {/* Right Column (Visual) — oculto no mobile */}
+        <div className="hidden lg:col-span-5 lg:flex relative items-center justify-center">
           {/* Main Hero Visual Card / House */}
           <div className="relative w-full max-w-[450px] aspect-[4/5] sm:aspect-square lg:aspect-[4/5] rounded-3xl overflow-hidden bg-ekon-purple-dark/40 border border-white/10 shadow-2xl">
             {/* Beautiful background architecture rendering image */}
