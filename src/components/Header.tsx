@@ -44,8 +44,12 @@ export const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="select-none">
-          <img src={logoWhite} alt="Ekon Energia" className="h-10 w-auto object-contain" />
+        <a href="#" className="select-none flex-shrink-0">
+          <img
+            src={logoWhite}
+            alt="Ekon Energia"
+            className="h-12 md:h-14 w-auto object-contain drop-shadow-[0_0_12px_rgba(0,230,118,0.25)] transition-transform duration-300 hover:scale-105"
+          />
         </a>
 
         {/* Desktop Menu */}

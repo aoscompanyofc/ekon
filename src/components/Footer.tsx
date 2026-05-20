@@ -1,5 +1,6 @@
 import React from 'react';
-import { MessageCircle, Zap } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
+import logoWhite from '../assets/logo-white.png';
 
 export const Footer: React.FC = () => {
   const navLinks = [
@@ -26,18 +27,12 @@ export const Footer: React.FC = () => {
           
           {/* Left Column (Logo) */}
           <div className="md:col-span-4 flex justify-center md:justify-start">
-            <a href="#" className="flex items-center gap-2 select-none group">
-              <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-ekon-green/10 border border-ekon-green/20 group-hover:bg-ekon-green/20 transition-all duration-300">
-                <Zap className="w-5 h-5 text-ekon-green fill-ekon-green" />
-              </div>
-              <div className="flex flex-col leading-none text-left">
-                <span className="font-extrabold text-2xl tracking-tight text-white lowercase">
-                  ekon
-                </span>
-                <span className="font-bold text-[9px] tracking-[0.25em] text-ekon-green uppercase">
-                  energia
-                </span>
-              </div>
+            <a href="#" className="select-none">
+              <img
+                src={logoWhite}
+                alt="Ekon Energia"
+                className="h-12 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
+              />
             </a>
           </div>
 
