@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-3 flex justify-center md:justify-end gap-4">
             {/* WhatsApp */}
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5531985167248"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Entre em contato pelo WhatsApp"
@@ -114,7 +114,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-xs font-semibold text-white/40 uppercase tracking-widest">
           <span>
-            © 2024 Ekon Energia. Todos os direitos reservados.
+            © 2026 Ekon Energia. Todos os direitos reservados.
           </span>
           <span className="text-[10px]">
             Energia Inteligente por Assinatura

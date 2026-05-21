@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import { useReducedMotion } from '../hooks/useReducedMotion';
 import { CheckCircle2, Zap } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '5500000000000'; // Substitua pelo número da Ekon
+const WHATSAPP_NUMBER = '5531985167248';
 
 const advantages = [
   'Desconto direto na sua conta de luz',
