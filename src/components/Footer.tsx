@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
             </a>
             {/* Instagram */}
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/ekonenergia/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Siga-nos no Instagram"
@@ -89,7 +89,7 @@ export const Footer: React.FC = () => {
             </a>
             {/* Facebook */}
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61589172366302"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Curta nossa página no Facebook"
