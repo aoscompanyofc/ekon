@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
+import { EnergyPath } from './components/EnergyPath';
 import { Economy } from './components/Economy';
 import { Benefits } from './components/Benefits';
 import { TrustBar } from './components/TrustBar';
@@ -51,7 +52,10 @@ const App: React.FC = () => {
           {/* 2. How It Works Section */}
           <HowItWorks />
 
-          {/* 3. Economy Section (Purple block) */}
+          {/* 3. Energy Path Section */}
+          <EnergyPath />
+
+          {/* 4. Economy Section (Purple block) */}
           <Economy />
 
           {/* 4. Benefits + Simulation Form Section */}
