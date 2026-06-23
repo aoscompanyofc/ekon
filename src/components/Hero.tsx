@@ -103,9 +103,9 @@ export const Hero: React.FC = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.1] mb-5">
-            Reduza até{' '}
+            Reduza{' '}
             <span className="text-ekon-green relative inline-block">
-              20%
+              de 8% a 25%
               <span className="absolute bottom-1 left-0 w-full h-[3px] bg-ekon-green/30 rounded" />
             </span>{' '}
             da sua conta de luz sem mudar nada na sua rotina.

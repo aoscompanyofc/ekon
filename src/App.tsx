@@ -16,15 +16,15 @@ const App: React.FC = () => {
     <>
       {/* Dynamic SEO Meta Injections */}
       <Helmet>
-        <title>Ekon Energia | Reduza até 20% da sua conta de luz</title>
+        <title>Ekon Energia | Reduza de 8% a 25% da sua conta de luz</title>
         <meta
           name="description"
-          content="Economize até 20% na sua conta de luz com a Ekon Energia. Sem instalação, sem obras, sem mensalidade. Faça sua simulação gratuita em 1 minuto."
+          content="Economize de 8% a 25% na sua conta de luz com a Ekon Energia. Sem instalação, sem obras, sem mensalidade. Faça sua simulação gratuita em 1 minuto."
         />
-        
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Ekon Energia | Reduza até 20% da sua conta de luz" />
+        <meta property="og:title" content="Ekon Energia | Reduza de 8% a 25% da sua conta de luz" />
         <meta
           property="og:description"
           content="Energia por assinatura com desconto garantido. Simule gratuitamente."
@@ -36,7 +36,7 @@ const App: React.FC = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ekon Energia | Economize na sua conta de luz" />
-        <meta name="twitter:description" content="Reduza até 20% sem instalação ou obras." />
+        <meta name="twitter:description" content="Reduza de 8% a 25% sem instalação ou obras." />
         <meta name="twitter:image" content="/og-image.webp" />
       </Helmet>
 
